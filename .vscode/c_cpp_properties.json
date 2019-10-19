@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/firmware/Middlewares/ST/STM32_USB_Device_Library/**",
+                "${workspaceFolder}/firmware/Drivers/STM32F7xx_HAL_Driver/**",
+                "${workspaceFolder}/firmware/Drivers/CMSIS/Device/ST/STM32F7xx/**",
+                "${workspaceFolder}/firmware/Drivers/CMSIS/include/**",
+                "${workspaceFolder}/firmware/Inc",
+                "${workspaceFolder}/firmware/mystorm-inc",
+                "/Development/IceCore/gcc-arm-none-eabi-8-2018-q4-major/**"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/Development/IceCore/gcc-arm-none-eabi-8-2018-q4-major/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x86"
+        }
+    ],
+    "version": 4
+}
