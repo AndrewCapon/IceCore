@@ -30,6 +30,12 @@
                 "debugServerPath": "/Applications/Eclipse.app/Contents/Eclipse/plugins/fr.ac6.mcu.externaltools.openocd.macos64_1.23.0.201904120827/tools/openocd/bin/openocd",
                 "serverStarted": "target halted due to debug-request, current mode: Thread",
             },
+            "windows": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "",
+                "debugServerPath": "",
+                "serverStarted": "target halted due to debug-request, current mode: Thread",
+            }
         },
     ]
 }
