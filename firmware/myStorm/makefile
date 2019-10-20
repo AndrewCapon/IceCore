@@ -13,6 +13,7 @@ CPP	= mystorm.cpp \
 		Spi.cpp \
 		Flash.cpp \
 		FPGA.cpp \
+		DSPI.cpp \
 		main.cpp
 OCDCONFIG = stlink.cfg
 OCD = /Applications/Eclipse.app/Contents/Eclipse/plugins/fr.ac6.mcu.externaltools.openocd.macos64_1.23.0.201904120827/tools/openocd/bin/openocd
@@ -82,7 +83,8 @@ CPP_OBJECTS	:= $(addprefix $(OBJ_DIR)/,$(notdir $(CPP:.cpp=.o)))
 C_DEFS =  \
 -DUSE_HAL_DRIVER \
 -DSTM32F730xx \
--DQSPI
+-DUSE_DSPI \
+-DUSE_DSPI_TEST
 
 GCCPATH = /Development/IceCore/gcc-arm-none-eabi-8-2018-q4-major/bin
 
@@ -110,6 +112,8 @@ LDFLAGS += -mthumb $(ARCH) $(FPU) $(DEBUG)
 
 #$(DRIVERS)/Src/stm32f7xx_ll_usb.c: CPPFLAGS += -Wno-attributes
 #$(OBJ_DIR)/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.o: CPPFLAGS += -Wno-attributes
+
+.PRECIOUS:$(OBJ_DIR)/%.o
 
 # toolchain recipes
 $(OBJ_DIR)/%.o: %.cpp
