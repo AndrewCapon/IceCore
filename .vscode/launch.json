@@ -5,6 +5,7 @@
             "name": "IceCode Debug",
             "type": "cppdbg",
             "request": "launch",
+            "preLaunchTask": "build",
             "logging": { "engineLogging": true, "trace" : true },
             "program": "${workspaceFolder}/firmware/mystorm/output/mystorm.elf",
             "targetArchitecture": "arm",

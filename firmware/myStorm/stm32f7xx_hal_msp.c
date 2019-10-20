@@ -44,7 +44,12 @@
 /* USER CODE BEGIN Includes */
 
 /* USER CODE END Includes */
-extern DMA_HandleTypeDef hdma_usart1_tx;
+#ifdef USE_DSPI
+	extern DMA_HandleTypeDef hdma_dualSpi;
+#else
+	extern DMA_HandleTypeDef hdma_usart1_tx;
+#endif
+
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
@@ -443,6 +448,82 @@ void HAL_I2C_MspDeInit(I2C_HandleTypeDef* hi2c)
 * @param hqspi: QSPI handle pointer
 * @retval None
 */
+#ifdef USE_DSPI
+void HAL_QSPI_MspInit(QSPI_HandleTypeDef* hDualSpi)
+{
+
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  if(hDualSpi->Instance==QUADSPI)
+  {
+  /* USER CODE BEGIN QUADSPI_MspInit 0 */
+
+  /* USER CODE END QUADSPI_MspInit 0 */
+    /* Peripheral clock enable */
+    __HAL_RCC_QSPI_CLK_ENABLE();
+  
+    __HAL_RCC_GPIOB_CLK_ENABLE();
+    __HAL_RCC_GPIOC_CLK_ENABLE();
+    /**QUADSPI GPIO Configuration    
+    PB2     ------> QUADSPI_CLK
+    PC9     ------> QUADSPI_BK1_IO0
+    PC10     ------> QUADSPI_BK1_IO1
+    PB6     ------> QUADSPI_BK1_NCS 
+    */
+    GPIO_InitStruct.Pin = GPIO_PIN_2;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF9_QUADSPI;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+    GPIO_InitStruct.Pin = GPIO_PIN_9|GPIO_PIN_10;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF9_QUADSPI;
+    HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+    GPIO_InitStruct.Pin = GPIO_PIN_6;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF10_QUADSPI;
+    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* USER CODE BEGIN QUADSPI_MspInit 1 */
+
+    /* QUADSPI DMA Init */
+    /* QUADSPI Init */
+
+    hdma_dualSpi.Instance = DMA2_Stream7;
+    hdma_dualSpi.Init.Channel = DMA_CHANNEL_3;
+    hdma_dualSpi.Init.Direction = DMA_MEMORY_TO_PERIPH;
+    hdma_dualSpi.Init.PeriphInc = DMA_PINC_DISABLE;
+    hdma_dualSpi.Init.MemInc = DMA_MINC_ENABLE;
+    hdma_dualSpi.Init.PeriphDataAlignment = DMA_PDATAALIGN_BYTE;
+    hdma_dualSpi.Init.MemDataAlignment = DMA_MDATAALIGN_BYTE;
+    hdma_dualSpi.Init.Mode = DMA_NORMAL;
+    hdma_dualSpi.Init.Priority = DMA_PRIORITY_LOW;
+    hdma_dualSpi.Init.FIFOMode = DMA_FIFOMODE_ENABLE;
+    hdma_dualSpi.Init.FIFOThreshold = DMA_FIFO_THRESHOLD_FULL;
+    hdma_dualSpi.Init.MemBurst = DMA_MBURST_SINGLE;
+    hdma_dualSpi.Init.PeriphBurst = DMA_PBURST_SINGLE;
+
+    if (HAL_DMA_Init(&hdma_dualSpi) != HAL_OK)
+    {
+      Error_Handler();
+    }
+
+    __HAL_LINKDMA(hDualSpi,hdma,hdma_dualSpi);
+
+    /* QUADSPI interrupt Init */
+    HAL_NVIC_SetPriority(QUADSPI_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(QUADSPI_IRQn);
+  /* USER CODE END QUADSPI_MspInit 1 */
+  }
+
+}
+#else
 void HAL_QSPI_MspInit(QSPI_HandleTypeDef* hqspi)
 {
 
@@ -490,6 +571,7 @@ void HAL_QSPI_MspInit(QSPI_HandleTypeDef* hqspi)
   }
 
 }
+#endif 
 
 /**
 * @brief QSPI MSP De-Initialization
@@ -714,6 +796,40 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
 * @param huart: UART handle pointer
 * @retval None
 */
+#ifdef USE_DSPI
+void HAL_UART_MspInit(UART_HandleTypeDef* huart)
+{
+
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  if(huart->Instance==USART1)
+  {
+  /* USER CODE BEGIN USART1_MspInit 0 */
+
+  /* USER CODE END USART1_MspInit 0 */
+    /* Peripheral clock enable */
+    __HAL_RCC_USART1_CLK_ENABLE();
+  
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+    /**USART1 GPIO Configuration    
+    PA9     ------> USART1_TX
+    PA10     ------> USART1_RX 
+    */
+    GPIO_InitStruct.Pin = GPIO_PIN_9|GPIO_PIN_10;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
+    GPIO_InitStruct.Alternate = GPIO_AF7_USART1;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+    /* USART1 interrupt Init */
+    HAL_NVIC_SetPriority(USART1_IRQn, 0, 0);
+    HAL_NVIC_EnableIRQ(USART1_IRQn);
+  /* USER CODE BEGIN USART1_MspInit 1 */
+
+  /* USER CODE END USART1_MspInit 1 */
+  }
+}
+#else
 void HAL_UART_MspInit(UART_HandleTypeDef* huart)
 {
 
@@ -766,6 +882,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
   }
 
 }
+#endif
 
 /**
 * @brief UART MSP De-Initialization

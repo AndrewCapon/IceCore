@@ -5,12 +5,21 @@
   "tasks": [
     {
       "label": "build",
-      "group": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
       "type": "shell",
       "command": "make -C ${workspaceFolder}/firmware/myStorm -j23",
       "problemMatcher": {
         "base": "$gcc",
-        "fileLocation": ["relative", "${workspaceFolder}/firmware/myStorm"]
+        "fileLocation": [
+          "relative",
+          "${workspaceFolder}/firmware/myStorm"
+        ]
+      },
+      "presentation": {
+        "clear": true
       }
     },
     {
@@ -20,8 +29,24 @@
       "command": "make -C ${workspaceFolder}/firmware/myStorm clean",
       "problemMatcher": {
         "base": "$gcc",
-        "fileLocation": ["relative", "${workspaceFolder}/firmware/myStorm"]
+        "fileLocation": [
+          "relative",
+          "${workspaceFolder}/firmware/myStorm"
+        ]
+      },
+      "presentation": {
+        "clear": true
       }
+    },
+    {
+      "label": "oflash",
+      "group": "build",
+      "type": "shell",
+      "command": "make -C ${workspaceFolder}/firmware/myStorm oflash",
+      "presentation": {
+        "clear": true
+      },
+      "problemMatcher": []
     }
   ]
 }

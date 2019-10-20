@@ -40,11 +40,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "usbd_cdc_if.h"
 #include "stm32f7xx_hal.h"
 #include "errno.h"
+#ifdef USE_DSPI
+	#include "DSPI.h"
+#endif
 
 extern SPI_HandleTypeDef hspi3;
 extern USBD_HandleTypeDef hUsbDeviceFS;
 extern UART_HandleTypeDef huart1;
 extern TIM_HandleTypeDef htim6;
+
+#ifdef USE_DSPI
+extern QSPI_HandleTypeDef hqspi;
+#endif
 
 static int mode = 0;
 
@@ -66,6 +73,13 @@ BIUI Bui(1, 1, 4);
 Fpga Ice40(IMGSIZE, Bui);
 Flash flash(&hspi3, IMGSIZE, Bui, Ice40);
 
+#ifdef USE_DSPI
+	DSPI Dspi(&hqspi);
+#endif
+
+#ifdef USE_DSPI_TEST
+	uint32_t g_uDSPITestCount = 0;
+#endif
 /*
  * Setup function (called once at powerup)
  */
@@ -124,12 +138,44 @@ loop(void)
 	// 	error_report(buffer, 16);
 	// 	cdc_puts(buffer);
 	// 	err = 0;
-	// }
+	// } 
+
 
 	if(gpio_ishigh(MODE_BOOT)) {
 		mode = !Bui.mode_toggle();
 		HAL_Delay(1000);
+	} 
+
+#ifdef USE_DSPI_TEST
+if(g_uDSPITestCount)
+{
+	DSPI::DSPITestErrorType result = Dspi.Test();
+	switch(result)
+	{
+		case DSPI::etSuccess:
+			cdc_puts(".");
+			break;
+
+		case DSPI::etTransmitError:
+			cdc_puts("T");
+			break;
+
+		case DSPI::etReceiveError:
+			cdc_puts("R");
+			break;
+
+		case DSPI::etDataDifferentError:
+			cdc_puts("X");
+			break;
+
+		case DSPI::etUnknownError:
+			cdc_puts("U"); 
+			break;
 	}
+	g_uDSPITestCount--;
+}
+#endif
+
 }
 /*
  * Write a string to usbcdc, and to uart1 if not detached,
@@ -185,6 +231,33 @@ uint8_t flash_id(char *buf, int len){
 	return len;
 }
 
+
+#ifdef USE_DSPI
+void HAL_QSPI_TxCpltCallback (QSPI_HandleTypeDef *hDualSpi)
+{
+  UNUSED(hDualSpi);
+	Dspi.CallBack(DSPI::cbTxComplete);
+}
+
+void 	HAL_QSPI_RxCpltCallback (QSPI_HandleTypeDef *hDualSpi)
+{
+  UNUSED(hDualSpi);
+	Dspi.CallBack(DSPI::cbRxComplete);
+}
+
+void 	HAL_QSPI_TimeOutCallback (QSPI_HandleTypeDef *hDualSpi)
+{
+  UNUSED(hDualSpi);
+	Dspi.CallBack(DSPI::cbTimeout);
+}
+
+void 	HAL_QSPI_ErrorCallback (QSPI_HandleTypeDef *hDualSpi)
+{
+  UNUSED(hDualSpi);
+	Dspi.CallBack(DSPI::cbError);
+}
+#endif
+
 /** TODO remove this
   * @brief  EXTI line detection callbacks.
   * @param  GPIO_Pin Specifies the pins connected EXTI line
@@ -203,15 +276,30 @@ static int8_t usbcdc_rxcallback(uint8_t *data, uint32_t *len){
 	USBD_CDC_SetRxBuffer(&hUsbDeviceFS, &data[0]);
 
 	if(*len) {
+#ifdef USE_DSPI_TEST
+		if((*len == 10) && data[0]=='D' && data[1]=='S' && data[2]=='P' && data[3]=='I' && data[4]=='_' && data[5]=='T' && data[6]=='E' && data[7]=='S'  && data[8]=='T')
+		{
+			g_uDSPITestCount = 1000;
+		}
+		else
+#endif		
 		if(mode){
 			if(!flash.stream(data,*len)) {
+#ifdef USE_DSPI
+				Bui.error(HAL_UART_Transmit(&huart1, data, *len, HAL_UART_TIMEOUT_VALUE));
+#else				
 				Bui.error(HAL_UART_Transmit_DMA(&huart1, data, *len));
+#endif
 				return USBD_OK;
 			}
 			
 		} else {
 			if(!Ice40.stream(data, *len)){
+#ifdef USE_DSPI
+				Bui.error(HAL_UART_Transmit(&huart1, data, *len, HAL_UART_TIMEOUT_VALUE));
+#else
 				Bui.error(HAL_UART_Transmit_DMA(&huart1, data, *len));
+#endif
 				return USBD_OK;
 			}
 		}

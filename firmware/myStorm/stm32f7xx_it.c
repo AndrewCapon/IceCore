@@ -73,7 +73,12 @@
 /* External variables --------------------------------------------------------*/
 extern PCD_HandleTypeDef hpcd_USB_OTG_FS;
 extern TIM_HandleTypeDef htim6;
-extern DMA_HandleTypeDef hdma_usart1_tx;
+#ifdef USE_DSPI
+	extern QSPI_HandleTypeDef hqspi;
+	extern DMA_HandleTypeDef hdma_dualSpi;
+#else
+	extern DMA_HandleTypeDef hdma_usart1_tx;
+#endif
 extern UART_HandleTypeDef huart1;
 /* USER CODE BEGIN EV */
 
@@ -270,12 +275,35 @@ void DMA2_Stream7_IRQHandler(void)
   /* USER CODE BEGIN DMA2_Stream7_IRQn 0 */
 
   /* USER CODE END DMA2_Stream7_IRQn 0 */
+#ifdef USE_DSPI
+  HAL_DMA_IRQHandler(&hdma_dualSpi);
+#else
   HAL_DMA_IRQHandler(&hdma_usart1_tx);
+#endif
   /* USER CODE BEGIN DMA2_Stream7_IRQn 1 */
 
   /* USER CODE END DMA2_Stream7_IRQn 1 */
 }
 
+/* USER CODE BEGIN 1 */
+
+/* USER CODE END 1 */
+
+#ifdef USE_DSPI
+/**
+  * @brief This function handles QUADSPI global interrupt.
+  */
+void QUADSPI_IRQHandler(void)
+{
+  /* USER CODE BEGIN QUADSPI_IRQn 0 */
+
+  /* USER CODE END QUADSPI_IRQn 0 */
+  HAL_QSPI_IRQHandler(&hqspi);
+  /* USER CODE BEGIN QUADSPI_IRQn 1 */
+
+  /* USER CODE END QUADSPI_IRQn 1 */
+}
+#endif
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */
