@@ -167,7 +167,7 @@ int main(void)
   MX_RTC_Init();
   MX_TIM6_Init();
 #ifdef USE_DSPI
-  MX_QUADSPI_Init(255);
+  MX_QUADSPI_Init(8); 
 #else  
   MX_QUADSPI_Init();
 #endif

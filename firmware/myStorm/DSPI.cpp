@@ -61,9 +61,9 @@ bool DSPI::Transmit(uint16_t *puBuffer, uint16_t uAddr, uint16_t uLen)
   sCommand.SIOOMode          = QSPI_SIOO_INST_EVERY_CMD;
 
   sCommand.AddressMode       = QSPI_ADDRESS_2_LINES;
-  sCommand.AddressSize			 = QSPI_ADDRESS_24_BITS;
+  sCommand.AddressSize			 = QSPI_ADDRESS_16_BITS;
 
-  sCommand.Address					 = uAddr<<8;
+  sCommand.Address					 = uAddr;
   sCommand.NbData       		 = uLen*2;
 
 
@@ -78,7 +78,7 @@ bool DSPI::Receive(uint16_t *puBuffer, uint16_t uAddr, uint16_t uLen)
   sCommand.Instruction       = 0x02;
   sCommand.AlternateByteMode = QSPI_ALTERNATE_BYTES_NONE;
   sCommand.DataMode          = QSPI_DATA_2_LINES;
-  sCommand.DummyCycles       = 4;
+  sCommand.DummyCycles       = 8;
   sCommand.DdrMode           = QSPI_DDR_MODE_DISABLE;
   sCommand.DdrHoldHalfCycle  = QSPI_DDR_HHC_ANALOG_DELAY;
   sCommand.SIOOMode          = QSPI_SIOO_INST_EVERY_CMD;
