@@ -66,7 +66,7 @@ SB_IO #(
 
 
 // are we alive
-assign led = 4'b0001;
+assign led = 4'b1110;
 
 DSPIMemory top_level( 
   .QD_READ(io_qd_read),
