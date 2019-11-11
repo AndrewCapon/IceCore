@@ -5798,7 +5798,7 @@
         },
         "led": {
           "direction": "output",
-          "bits": [ "1", "0", "0", "0" ]
+          "bits": [ "0", "1", "1", "1" ]
         }
       },
       "cells": {
@@ -13040,7 +13040,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13063,7 +13063,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13087,7 +13087,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13110,7 +13110,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13135,7 +13135,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13159,7 +13159,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13182,7 +13182,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13206,7 +13206,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13229,7 +13229,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13253,7 +13253,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13276,7 +13276,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13300,7 +13300,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13323,7 +13323,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13347,7 +13347,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13370,7 +13370,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13394,7 +13394,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13417,7 +13417,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13441,7 +13441,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13464,7 +13464,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13488,7 +13488,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13511,7 +13511,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -13535,7 +13535,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:68"
           },
           "port_directions": {
             "CI": "input",
@@ -13558,7 +13558,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:47|/usr/local/bin/../share/yosys/ice40/cells_map.v:74|/usr/local/bin/../share/yosys/ice40/cells_map.v:56"
           },
           "port_directions": {
             "I0": "input",
@@ -14192,7 +14192,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14214,7 +14214,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14236,7 +14236,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14258,7 +14258,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14280,7 +14280,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14302,7 +14302,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14324,7 +14324,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14346,7 +14346,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14368,7 +14368,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -14390,7 +14390,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -14412,7 +14412,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -14434,7 +14434,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -14456,7 +14456,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14478,7 +14478,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14500,7 +14500,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14522,7 +14522,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14544,7 +14544,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14566,7 +14566,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14588,7 +14588,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14610,7 +14610,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14632,7 +14632,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14656,7 +14656,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14680,7 +14680,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14704,7 +14704,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14728,7 +14728,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14752,7 +14752,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14776,7 +14776,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14800,7 +14800,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14824,7 +14824,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14848,7 +14848,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14872,7 +14872,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14896,7 +14896,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14920,7 +14920,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14944,7 +14944,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14968,7 +14968,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -14992,7 +14992,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15016,7 +15016,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15038,7 +15038,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15060,7 +15060,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15082,7 +15082,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15104,7 +15104,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15126,7 +15126,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15148,7 +15148,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15170,7 +15170,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15192,7 +15192,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15216,7 +15216,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15238,7 +15238,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15260,7 +15260,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15282,7 +15282,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15304,7 +15304,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15326,7 +15326,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15348,7 +15348,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15370,7 +15370,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15392,7 +15392,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15414,7 +15414,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15436,7 +15436,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15458,7 +15458,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15480,7 +15480,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:134|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:132|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15502,7 +15502,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:29|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:29|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15522,7 +15522,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:29|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:29|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15542,7 +15542,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:29|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:29|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15562,7 +15562,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15584,7 +15584,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15606,7 +15606,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15628,7 +15628,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15650,7 +15650,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15672,7 +15672,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15694,7 +15694,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15716,7 +15716,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15738,7 +15738,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:8"
           },
           "port_directions": {
             "C": "input",
@@ -15760,7 +15760,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:78|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:78|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15780,7 +15780,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:78|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:78|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15800,7 +15800,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:78|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:78|/usr/local/bin/../share/yosys/ice40/cells_map.v:2"
           },
           "port_directions": {
             "C": "input",
@@ -15820,7 +15820,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:7"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:7"
           },
           "port_directions": {
             "C": "input",
@@ -16006,7 +16006,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16028,7 +16028,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16050,7 +16050,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16072,7 +16072,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16094,7 +16094,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16116,7 +16116,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16138,7 +16138,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16160,7 +16160,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38|/usr/local/bin/../share/yosys/ice40/cells_map.v:17"
           },
           "port_directions": {
             "C": "input",
@@ -16182,7 +16182,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16204,7 +16204,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16226,7 +16226,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16248,7 +16248,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16270,7 +16270,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16292,7 +16292,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16314,7 +16314,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16336,7 +16336,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -16358,7 +16358,7 @@
           },
           "attributes": {
             "module_not_derived": 1,
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88|/usr/local/bin/../share/yosys/ice40/cells_map.v:15"
           },
           "port_directions": {
             "C": "input",
@@ -19368,133 +19368,133 @@
           "hide_name": 1,
           "bits": [ 34 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[11]": {
           "hide_name": 1,
           "bits": [ 458 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[1]": {
           "hide_name": 1,
           "bits": [ 64 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[2]": {
           "hide_name": 1,
           "bits": [ 90 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[3]": {
           "hide_name": 1,
           "bits": [ 25 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[4]": {
           "hide_name": 1,
           "bits": [ 44 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[5]": {
           "hide_name": 1,
           "bits": [ 81 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[6]": {
           "hide_name": 1,
           "bits": [ 85 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[7]": {
           "hide_name": 1,
           "bits": [ 37 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[8]": {
           "hide_name": 1,
           "bits": [ 59 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$269[9]": {
           "hide_name": 1,
           "bits": [ 54 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229"
+            "src": "chip.v:71|DSPIMemory.v:227"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[0]": {
           "hide_name": 1,
           "bits": [ 214 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[1]": {
           "hide_name": 1,
           "bits": [ 216 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[2]": {
           "hide_name": 1,
           "bits": [ 218 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[3]": {
           "hide_name": 1,
           "bits": [ 227 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[4]": {
           "hide_name": 1,
           "bits": [ 228 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[5]": {
           "hide_name": 1,
           "bits": [ 229 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[6]": {
           "hide_name": 1,
           "bits": [ 230 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$auto$wreduce.cc:454:run$270[7]": {
           "hide_name": 1,
           "bits": [ 231 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$new_n306_": {
@@ -20052,252 +20052,252 @@
           "hide_name": 1,
           "bits": [ 97 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$and$/usr/local/bin/../share/yosys/techmap.v:434$1688_Y[3]_new_": {
           "hide_name": 1,
           "bits": [ 93 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$and$/usr/local/bin/../share/yosys/techmap.v:434$1689_Y[2]_new_": {
           "hide_name": 1,
           "bits": [ 18 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$and$/usr/local/bin/../share/yosys/techmap.v:434$1691_Y[2]_new_": {
           "hide_name": 1,
           "bits": [ 277 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$and$/usr/local/bin/../share/yosys/techmap.v:434$1692_Y[2]_new_": {
           "hide_name": 1,
           "bits": [ 38 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$and$/usr/local/bin/../share/yosys/techmap.v:434$1693_Y[1]_new_": {
           "hide_name": 1,
           "bits": [ 35 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$and$/usr/local/bin/../share/yosys/techmap.v:434$1695_Y[0]_new_": {
           "hide_name": 1,
           "bits": [ 275 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1686_Y[0]": {
           "hide_name": 1,
           "bits": [ 273 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1686_Y[1]": {
           "hide_name": 1,
           "bits": [ 290 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1686_Y[2]": {
           "hide_name": 1,
           "bits": [ 293 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$128.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1686_Y[3]": {
           "hide_name": 1,
           "bits": [ 294 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1480_Y": {
           "hide_name": 1,
           "bits": [ 106 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1481_Y": {
           "hide_name": 1,
           "bits": [ 112 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1482_Y": {
           "hide_name": 1,
           "bits": [ 119 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1483_Y": {
           "hide_name": 1,
           "bits": [ 131 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1484_Y": {
           "hide_name": 1,
           "bits": [ 137 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1485_Y": {
           "hide_name": 1,
           "bits": [ 142 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1486_Y": {
           "hide_name": 1,
           "bits": [ 95 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$181.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:441$1487_Y": {
           "hide_name": 1,
           "bits": [ 124 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:441"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:441"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$54.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1433_Y": {
           "hide_name": 1,
           "bits": [ 162 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$65.$and$/usr/local/bin/../share/yosys/techmap.v:434$1812_Y[0]_new_": {
           "hide_name": 1,
           "bits": [ 58 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$65.$and$/usr/local/bin/../share/yosys/techmap.v:434$1812_Y[1]_new_": {
           "hide_name": 1,
           "bits": [ 52 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$65.$and$/usr/local/bin/../share/yosys/techmap.v:434$1812_Y[2]_new_": {
           "hide_name": 1,
           "bits": [ 31 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:434"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:434"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$65.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1809_Y[0]": {
           "hide_name": 1,
           "bits": [ 207 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$65.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1809_Y[1]": {
           "hide_name": 1,
           "bits": [ 208 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$65.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1809_Y[2]": {
           "hide_name": 1,
           "bits": [ 210 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$65.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1809_Y[3]": {
           "hide_name": 1,
           "bits": [ 161 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$reduce_or$/usr/local/bin/../share/yosys/techmap.v:445$1756_Y_new_inv_": {
           "hide_name": 1,
           "bits": [ 14 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[0]": {
           "hide_name": 1,
           "bits": [ 192 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[1]": {
           "hide_name": 1,
           "bits": [ 193 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[2]": {
           "hide_name": 1,
           "bits": [ 195 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[3]": {
           "hide_name": 1,
           "bits": [ 197 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[4]": {
           "hide_name": 1,
           "bits": [ 199 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[5]": {
           "hide_name": 1,
           "bits": [ 201 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[6]": {
           "hide_name": 1,
           "bits": [ 203 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap$techmap\\top_level.$procmux$79.$ternary$/usr/local/bin/../share/yosys/techmap.v:445$1757_Y[7]": {
           "hide_name": 1,
           "bits": [ 205 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:142|DSPIMemory.v:250|/usr/local/bin/../share/yosys/techmap.v:445"
+            "src": "chip.v:71|DSPIMemory.v:140|DSPIMemory.v:248|/usr/local/bin/../share/yosys/techmap.v:445"
           }
         },
         "$abc$4091$techmap1058\\top_level.mem.1.0.0.A1ADDR_11[0]": {
@@ -20387,91 +20387,91 @@
           "hide_name": 1,
           "bits": [ 450 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:38"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:38"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\outseq[0:0]": {
           "hide_name": 1,
           "bits": [ 452 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][0]": {
           "hide_name": 1,
           "bits": [ 153 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][1]": {
           "hide_name": 1,
           "bits": [ 232 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][2]": {
           "hide_name": 1,
           "bits": [ 233 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][3]": {
           "hide_name": 1,
           "bits": [ 234 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][4]": {
           "hide_name": 1,
           "bits": [ 235 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][5]": {
           "hide_name": 1,
           "bits": [ 236 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][6]": {
           "hide_name": 1,
           "bits": [ 237 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][7]": {
           "hide_name": 1,
           "bits": [ 238 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$techmap\\top_level.QT.$0\\shiftreg[8:0][8]": {
           "hide_name": 1,
           "bits": [ 240 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:88"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:88"
           }
         },
         "$abc$4091$top_level.QR.rxready_new_inv_": {
           "hide_name": 1,
           "bits": [ 15 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:15"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:15"
           }
         },
         "$abc$4091$top_level.QT.txready_new_inv_": {
           "hide_name": 1,
           "bits": [ 13 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:66"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:66"
           }
         },
         "$auto$alumacc.cc:485:replace_alu$290.C": {
@@ -20492,7 +20492,7 @@
           "hide_name": 1,
           "bits": [ "0", 65, 496, 497, 498, 499, 500, 501, 502, 503, 493, 494, 495 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:229|/usr/local/bin/../share/yosys/ice40/arith_map.v:43"
+            "src": "chip.v:71|DSPIMemory.v:227|/usr/local/bin/../share/yosys/ice40/arith_map.v:43"
           }
         },
         "$techmap1058\\top_level.mem.1.0.0.A1DATA_16": {
@@ -20824,7 +20824,7 @@
         },
         "led": {
           "hide_name": 0,
-          "bits": [ "1", "0", "0", "0" ],
+          "bits": [ "0", "1", "1", "1" ],
           "attributes": {
             "src": "chip.v:10"
           }
@@ -20862,91 +20862,91 @@
           "hide_name": 0,
           "bits": [ 504 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:22"
+            "src": "chip.v:71|DSPIMemory.v:20"
           }
         },
         "top_level.QD_READ": {
           "hide_name": 0,
           "bits": [ 212, 215 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:15"
+            "src": "chip.v:71|DSPIMemory.v:13"
           }
         },
         "top_level.QD_WRITE": {
           "hide_name": 0,
           "bits": [ 515, 516 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:16"
+            "src": "chip.v:71|DSPIMemory.v:14"
           }
         },
         "top_level.QD_WRITE_ENABLE": {
           "hide_name": 0,
           "bits": [ 448, 448 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:17"
+            "src": "chip.v:71|DSPIMemory.v:15"
           }
         },
         "top_level.QR.QCK": {
           "hide_name": 0,
           "bits": [ 6 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:13"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:13"
           }
         },
         "top_level.QR.QD": {
           "hide_name": 0,
           "bits": [ 212, 215, "0", "0" ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:14"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:14"
           }
         },
         "top_level.QR.QSS": {
           "hide_name": 0,
           "bits": [ 5 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:13"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:13"
           }
         },
         "top_level.QR.clk": {
           "hide_name": 0,
           "bits": [ 504 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:12"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:12"
           }
         },
         "top_level.QR.inbuf": {
           "hide_name": 0,
           "bits": [ 60, 55, 36, 27, 45, 82, 86, 39 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:24"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:24"
           }
         },
         "top_level.QR.inseq": {
           "hide_name": 0,
           "bits": [ 449 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:21"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:21"
           }
         },
         "top_level.QR.insync": {
           "hide_name": 0,
           "bits": [ 19, 20, 513 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:26"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:26"
           }
         },
         "top_level.QR.rxdata": {
           "hide_name": 0,
           "bits": [ 60, 55, 36, 27, 45, 82, 86, 39 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:16"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:16"
           }
         },
         "top_level.QR.shiftin": {
           "hide_name": 0,
           "bits": [ 212, 215, 219, 222, 221, 226, 225, 224, 213 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:282|QSPI_TX_RX.v:34"
+            "src": "chip.v:71|DSPIMemory.v:280|QSPI_TX_RX.v:34"
           }
         },
         "top_level.QR.shiftreg": {
@@ -20959,147 +20959,147 @@
           "hide_name": 0,
           "bits": [ 6 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:64"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:64"
           }
         },
         "top_level.QT.QD": {
           "hide_name": 0,
           "bits": [ 515, 516, "0", "0" ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:65"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:65"
           }
         },
         "top_level.QT.QSS": {
           "hide_name": 0,
           "bits": [ 5 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:64"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:64"
           }
         },
         "top_level.QT.clk": {
           "hide_name": 0,
           "bits": [ 504 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:63"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:63"
           }
         },
         "top_level.QT.outseq": {
           "hide_name": 0,
           "bits": [ 451 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:71"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:71"
           }
         },
         "top_level.QT.outsync": {
           "hide_name": 0,
           "bits": [ 21, 22, 514 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:75"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:75"
           }
         },
         "top_level.QT.shiftout": {
           "hide_name": 0,
           "bits": [ "0", "0", 160, 159, 158, 157, 156, 155, 239 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:83"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:83"
           }
         },
         "top_level.QT.shiftreg": {
           "hide_name": 0,
           "bits": [ 160, 159, 158, 157, 156, 155, 239, 515, 516 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:70"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:70"
           }
         },
         "top_level.QT.shiftrequest": {
           "hide_name": 0,
           "bits": [ "0", "0", "0", "0", 160, 159, 158, 157, 156 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:84"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:84"
           }
         },
         "top_level.QT.txdata": {
           "hide_name": 0,
           "bits": [ 108, 114, 120, 132, 138, 144, 100, 126 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:273|QSPI_TX_RX.v:67"
+            "src": "chip.v:71|DSPIMemory.v:271|QSPI_TX_RX.v:67"
           }
         },
         "top_level.RST": {
           "hide_name": 0,
           "bits": [ 28 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:23"
+            "src": "chip.v:71|DSPIMemory.v:21"
           }
         },
         "top_level.SCLK": {
           "hide_name": 0,
           "bits": [ 6 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:20"
+            "src": "chip.v:71|DSPIMemory.v:18"
           }
         },
         "top_level.SS": {
           "hide_name": 0,
           "bits": [ 5 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:19"
+            "src": "chip.v:71|DSPIMemory.v:17"
           }
         },
         "top_level.addrCounter": {
           "hide_name": 0,
           "bits": [ 65, 61, 87, 72, 41, 79, 83, 73, 49, 51, 30, 169, 170 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:45"
+            "src": "chip.v:71|DSPIMemory.v:43"
           }
         },
         "top_level.commandId": {
           "hide_name": 0,
           "bits": [ 279, 280, 283, 282, 287, 286, 285, 284 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:132"
+            "src": "chip.v:71|DSPIMemory.v:130"
           }
         },
         "top_level.reading": {
           "hide_name": 0,
           "bits": [ 447 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:54"
+            "src": "chip.v:71|DSPIMemory.v:52"
           }
         },
         "top_level.receiveLSB": {
           "hide_name": 0,
           "bits": [ 511, 512, 509, 510, 505, 506, 507, 508 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:108"
+            "src": "chip.v:71|DSPIMemory.v:106"
           }
         },
         "top_level.sendWord": {
           "hide_name": 0,
           "bits": [ 107, 115, 121, 133, 139, 145, 98, 127, 105, 116, 122, 134, 140, 146, 94, 128 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:107"
+            "src": "chip.v:71|DSPIMemory.v:105"
           }
         },
         "top_level.spi_rxdata": {
           "hide_name": 0,
           "bits": [ 60, 55, 36, 27, 45, 82, 86, 39 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:105"
+            "src": "chip.v:71|DSPIMemory.v:103"
           }
         },
         "top_level.spi_txdata": {
           "hide_name": 0,
           "bits": [ 108, 114, 120, 132, 138, 144, 100, 126 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:105"
+            "src": "chip.v:71|DSPIMemory.v:103"
           }
         },
         "top_level.stateNext": {
           "hide_name": 0,
           "bits": [ 9, 8, 7, 10 ],
           "attributes": {
-            "src": "chip.v:71|DSPIMemory.v:131"
+            "src": "chip.v:71|DSPIMemory.v:129"
           }
         }
       }
