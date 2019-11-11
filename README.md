@@ -34,3 +34,30 @@ Core modules can be combined with different carrier boards for example [BlackIce
 Supports the [BlackEdge connectivity](https://github.com/folknology/BlackEdge) carriers
 
 Some further [background information](https://forum.mystorm.uk/t/new-product-blackice-mx/551/10) can be found on the [myStorm forum](https://forum.mystorm.uk)
+
+
+**DSPI Changes**
+
+The verilog for an 8k 16bit memory via DSPI is in examples/dspi, use this for testing.
+
+Fir the firnware there are two defines in Makefile :
+
+-DUSE_DSPI : Adds the DSPI code and uses the DMA that the UART was using.
+-DUSE_DSPI_TEST : Enables the test code, to run the test code send DSPI_TEST to the com port.
+
+After building with these two defines and flashing the firmware you can test as follows:
+
+cat dspiMemory.bin > <your com port>
+echo "DSPI_TEST" > <your com port>
+should give:
+
+cat /dev/<your com port>
+........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+The test runs 1000 iterations of random data to a random address and then reads it back to check it matches.
+
+A character is printed for each iteration:
+
+. = Success
+X = Data read not the same as data written
+T = Transmit Error
+R = Receive Error
