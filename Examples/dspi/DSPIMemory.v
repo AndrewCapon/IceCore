@@ -1,6 +1,4 @@
  
-//`define DEBUG
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // DSPIMemory
 //
@@ -71,7 +69,7 @@ end
 `ifdef DEBUG
 
 initial begin // Initialise ememory
-    $readmemb("MyTopLevel.v_toplevel_memoryCtrl_mem.bin",mem);
+    $readmemb("mem.bin",mem);
 end
 
 always @ (*) begin
