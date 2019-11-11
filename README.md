@@ -38,11 +38,9 @@ Some further [background information](https://forum.mystorm.uk/t/new-product-bla
 
 **DSPI Changes**
 
-*DSPI Verilog*
 The verilog for an 8k 16bit memory via DSPI is in examples/dspi, use this for testing.
 
-*firmware*
-There are two defines in Makefile :
+Fir the firnware there are two defines in Makefile :
 
 -DUSE_DSPI : Adds the DSPI code and uses the DMA that the UART was using.
 -DUSE_DSPI_TEST : Enables the test code, to run the test code send DSPI_TEST to the com port.
